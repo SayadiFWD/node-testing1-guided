@@ -74,8 +74,6 @@ describe('car class', () => { // not a test
     expect(prius.odometer).toBeGreaterThan(0)
     expect(prius.odometer).toBe(15)
     expect(prius).toHaveProperty('odometer', 15)
-    expect(prius).toMatchObject{
-      
-    }
+    expect(prius).toMatchObject({ odometer: 15 })
   })
 })

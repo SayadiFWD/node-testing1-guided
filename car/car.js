@@ -1,5 +1,5 @@
 class Car {
-  constructor() {
+  constructor(make) {
     this.make = make
   }
 }

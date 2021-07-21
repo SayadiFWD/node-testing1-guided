@@ -1,4 +1,5 @@
-// Build a Car class!
-class Car {}
+class Car {
+
+}
 
 module.exports = Car

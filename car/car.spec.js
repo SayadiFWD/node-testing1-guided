@@ -29,10 +29,14 @@ it('foo returns 5', () => {
 // (1) write test first see it fail
 // (2) write code see test pass
 // (3) reward yourself refactoring
-describe('car class', () => { // this is not a test
+describe('car class', () => { // not a test
   it('exists', () => {
     expect(Car).toBeDefined()
     expect(Car).toBeTruthy()
     expect(Car).not.toBeNull()
+  })
+
+  it('can make instances of Car', () => {
+    const car = new Car()
   })
 })

@@ -23,3 +23,5 @@ it('foo returns 5', () => {
   expect(actual).toBe(expected)
   expect(foo()).toBe(5)
 })
+
+// TDD: write test first, see it fail, write code, see test pass, reward yourself refactoring

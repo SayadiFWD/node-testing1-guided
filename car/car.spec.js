@@ -84,6 +84,7 @@ describe('car class', () => { // not a test
   it('has a driveAsync method that resolves to the updated odometer', async () => {
     let updatedOdometer = await prius.driveAsync(10)
     expect(updatedOdometer).toBe(10)
-    updatedOdometer = await prius.drive
+    updatedOdometer = await prius.driveAsync(10)
+    expect(updatedOdometer).toBe(20)
   })
 })

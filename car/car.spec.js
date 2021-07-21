@@ -36,6 +36,7 @@ describe('car class', () => { // not a test
     // let's intantiate a new car!!!
     prius = new Car('toyota', 'prius')
   })
+  
 
   it('exists', () => {
     expect(Car).toBeDefined()
@@ -47,16 +48,13 @@ describe('car class', () => { // not a test
     expect(prius).toBeInstanceOf(Car)
   })
   it('makes cars with a "make" prop in them', () => {
-    const prius = new Car('toyota')
     expect(prius.make).toBeDefined()
     expect(prius).toHaveProperty('make')
   })
   it('can create cars with the given "make" prop', () => {
-    const f150 = new Car('ford')
-    expect(f150.make).toBe('ford')
+    expect(prius.make).toBe('toyota')
   })
   it('can create cars with "make" and "model"', () => {
-    const prius = new Car('toyota', 'prius')
     expect(prius).toMatchObject(
       { make: 'toyota', model: 'prius' }
     )

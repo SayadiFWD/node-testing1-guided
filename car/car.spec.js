@@ -34,6 +34,7 @@ describe('car class', () => { // not a test
   beforeEach(() => {
     // any code your want running before each test
     // let's intantiate a new car!!!
+    prius = new Car('toyota', 'prius')
   })
 
   it('exists', () => {

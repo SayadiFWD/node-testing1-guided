@@ -69,4 +69,7 @@ describe('car class', () => { // not a test
     expect(prius.odometer).toBe(0)
     expect(prius).toHaveProperty('odometer', 0)
   })
+  it('driving increases odometer', () => {
+    
+  })
 })

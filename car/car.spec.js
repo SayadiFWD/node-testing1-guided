@@ -50,6 +50,9 @@ describe('car class', () => { // not a test
     expect(f150.make).toBe('ford')
   })
   it('can create cars with "make" and "model"', () => {
-    
+    const prius = new Car('toyota', 'prius')
+    expect(prius).toMatchObject(
+      { make: 'toyota', model: 'prius' }
+    )
   })
 })

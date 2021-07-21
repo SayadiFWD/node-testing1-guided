@@ -76,4 +76,7 @@ describe('car class', () => { // not a test
     expect(prius).toHaveProperty('odometer', 15)
     expect(prius).toMatchObject({ odometer: 15 })
   })
+  it('driving returns the updated odometer', () => {
+    
+  })
 })

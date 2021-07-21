@@ -66,6 +66,7 @@ describe('car class', () => { // not a test
     expect(Car.prototype.drive).toBe(prius.drive)
   })
   it('has an odometer that starts at zero', () => {
-    
+    expect(prius.odometer).toBe(0)
+    expect(prius).toHaveProperty('odometer', 0)
   })
 })

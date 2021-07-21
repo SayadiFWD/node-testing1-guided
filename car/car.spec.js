@@ -30,6 +30,12 @@ it('foo returns 5', () => {
 // (2) write code see test pass
 // (3) reward yourself refactoring
 describe('car class', () => { // not a test
+  let prius
+  beforeEach(() => {
+    // any code your want running before each test
+    // let's intantiate a new car!!!
+  })
+
   it('exists', () => {
     expect(Car).toBeDefined()
     expect(Car).toBeTruthy()

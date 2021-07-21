@@ -35,19 +35,16 @@ describe('car class', () => { // not a test
     expect(Car).toBeTruthy()
     expect(Car).not.toBeNull()
   })
-
   it('can make instances of Car', () => {
     const car = new Car('ford')
     // test that car is an instance of the Car class
     expect(car).toBeInstanceOf(Car)
   })
-
   it('makes cars with a "make" prop in them', () => {
     const prius = new Car('toyota')
     expect(prius.make).toBeDefined()
     expect(prius).toHaveProperty('make')
   })
-
   it('can create cars with the given "make" prop', () => {
     const f150 = new Car('ford')
     expect(f150.make).toBe('ford')

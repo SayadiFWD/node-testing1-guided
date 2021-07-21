@@ -8,5 +8,7 @@ test('it works', () => { // the test
 
 test('objects', () => {
   expect({}).toEqual({})
-  expect({}).toBe({})
+  expect([1, 2]).toEqual([1, 2])
+  expect(][1,3])
+  // expect({}).toBe({})
 })

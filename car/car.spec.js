@@ -16,5 +16,5 @@ test('objects', () => {
   expect(obj).toBe(obj2)
   const result = { a: 1, b: 2, c: 3 }
   const check = { a: 1, b: 2 }
-  // expect(result).
+  expect(result).
 })

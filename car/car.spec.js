@@ -36,7 +36,9 @@ describe('car class', () => { // not a test
     // let's intantiate a new car!!!
     prius = new Car('toyota', 'prius')
   })
-  
+  // beforeAll()
+  // afterEach()
+  // afterAll()
 
   it('exists', () => {
     expect(Car).toBeDefined()

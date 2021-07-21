@@ -5,8 +5,8 @@ class Car {
     this.model = model
   }
 
-  drive () {
-
+  drive (miles) {
+    this.odometer += miles
   }
 }
 

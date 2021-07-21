@@ -7,5 +7,6 @@ test('it works', () => { // the test
 })
 
 test('objects', () => {
-  
+  expect({}).toEqual({})
+  expect({}).toBe({})
 })

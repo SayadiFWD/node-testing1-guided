@@ -24,9 +24,9 @@ it('foo returns 5', () => {
   expect(foo()).toBe(5)
 })
 
-// TDD: write test first, see it fail, write code, see test pass, reward yourself refactoring
+// TDD: ()write test first, see it fail, write code, see test pass, reward yourself refactoring
 describe('car class', () => { // this is not a test
   it('exists', () => {
-    
+    expect(Car).toBeDefined()
   })
 })

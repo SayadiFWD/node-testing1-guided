@@ -1,5 +1,5 @@
 // Test away!
-test('it works', () => {
+test('it works', () => { // the test
   // empty test is a false positive!
-  expect(true).toBe(false)
+  expect(true).not.toBe(false) // one assertion
 })

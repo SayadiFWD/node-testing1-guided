@@ -38,5 +38,6 @@ describe('car class', () => { // not a test
 
   it('can make instances of Car', () => {
     const car = new Car()
+    // test that car is an instance of the Car class
   })
 })

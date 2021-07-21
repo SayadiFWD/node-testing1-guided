@@ -9,6 +9,6 @@ test('it works', () => { // the test
 test('objects', () => {
   expect({}).toEqual({})
   expect([1, 2]).toEqual([1, 2])
-  expect(][1,3])
+  // expect([1, 3]).toBe([1, 2])
   // expect({}).toBe({})
 })

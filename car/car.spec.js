@@ -9,6 +9,8 @@ test('it works', () => { // the test
 test('objects', () => {
   expect({}).toEqual({})
   expect([1, 2]).toEqual([1, 2])
-  // expect([1, 3]).toBe([1, 2])
-  // expect({}).toBe({})
+  // expect([1, 3]).toBe([1, 2]) // FAILS!
+  // expect({}).toBe({}) // FAILS
+  const obj = { a: 1 }
+  const obj2 = obj
 })

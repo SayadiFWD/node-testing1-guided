@@ -1,3 +1,4 @@
+const Car = require('./car')
 function foo() { return 5 } // this comes from another module
 test('it works', () => { // the test
   // empty test is a false positive!

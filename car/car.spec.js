@@ -1,10 +1,10 @@
+function foo() { return 5 } // this comes from another module
 test('it works', () => { // the test
   // empty test is a false positive!
   // assertions should be closely related
   expect(true).not.toBe(false) // one assertion
   expect(true).toBe(true) // another assertion
 })
-
 test('objects', () => {
   expect({}).toEqual({})
   expect([1, 2]).toEqual([1, 2])
@@ -17,9 +17,6 @@ test('objects', () => {
   const check = { a: 1, b: 2 }
   expect(result).toMatchObject(check)
 })
-
-function foo() { return 5 } // this comes from another module
-
 it('foo returns 5', () => {
   const actual = foo()
   const expected = 5

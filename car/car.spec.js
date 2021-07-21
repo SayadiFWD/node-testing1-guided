@@ -81,5 +81,7 @@ describe('car class', () => { // not a test
     expect(prius.drive(10)).toBe(20)
     expect(prius.drive(10)).toBe(30)
   })
-  it('has a driveAsync method that resolves to the updated odometer')
+  it('has a driveAsync method that resolves to the updated odometer', () => {
+    
+  })
 })

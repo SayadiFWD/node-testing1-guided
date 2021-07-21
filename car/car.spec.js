@@ -20,3 +20,8 @@ test('objects', () => {
 
 function foo() { return 5 }
 
+it('foo returns 5', () => {
+  const actual = foo()
+  const expected = 5
+  expect(expe)
+})

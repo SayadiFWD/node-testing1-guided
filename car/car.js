@@ -1,6 +1,6 @@
 class Car {
   constructor() {
-    this.make = 'toyota'
+    this.make = make
   }
 }
 

@@ -50,6 +50,6 @@ describe('car class', () => { // not a test
 
   it('can create cars with the given "make" prop', () => {
     const f150 = new Car('ford')
-    expect(f150.make).toEqual
+    expect(f150.make).toBe('ford')
   })
 })

@@ -61,4 +61,7 @@ describe('car class', () => { // not a test
       { make: 'toyota', model: 'prius' }
     )
   })
+  it('has a drive method', () => {
+    
+  })
 })

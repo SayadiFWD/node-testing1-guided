@@ -17,3 +17,6 @@ test('objects', () => {
   const check = { a: 1, b: 2 }
   expect(result).toMatchObject(check)
 })
+
+function foo() { return 5 }
+

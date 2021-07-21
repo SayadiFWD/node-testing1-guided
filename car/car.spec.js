@@ -29,6 +29,7 @@ it('foo returns 5', () => {
 describe('car class', () => { // this is not a test
   it('exists', () => {
     expect(Car).toBeDefined()
-    
+    expect(Car).toBeTruthy()
+    expect(Car).to
   })
 })

@@ -47,4 +47,8 @@ describe('car class', () => { // not a test
     expect(prius.make).toBeDefined()
     expect(prius).toHaveProperty('make')
   })
+
+  it('can create cars with the given "make" prop', () => {
+    
+  })
 })

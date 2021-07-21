@@ -18,10 +18,11 @@ test('objects', () => {
   expect(result).toMatchObject(check)
 })
 
-function foo() { return 5 }
+function foo() { return 5 } // this comes from another module
 
 it('foo returns 5', () => {
   const actual = foo()
   const expected = 5
-  expect(expe)
+  expect(actual).toBe(expected)
+  expect(foo()).toBe(5)
 })

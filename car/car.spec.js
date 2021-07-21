@@ -62,6 +62,6 @@ describe('car class', () => { // not a test
     )
   })
   it('has a drive method', () => {
-    
+    expect(prius.drive).toBeDefined()
   })
 })

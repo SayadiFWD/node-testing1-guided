@@ -41,4 +41,8 @@ describe('car class', () => { // not a test
     // test that car is an instance of the Car class
     expect(car).toBeInstanceOf
   })
+
+  it('makes cars with a "make" prop in them', () => {
+    
+  })
 })

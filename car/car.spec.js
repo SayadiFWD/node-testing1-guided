@@ -15,5 +15,6 @@ test('objects', () => {
   const obj2 = obj
   expect(obj).toBe(obj2)
   const result = { a: 1, b: 2, c: 3 }
-  const check 
+  const check = { a: 1, b: 2 }
+  expect(result).toMatch
 })

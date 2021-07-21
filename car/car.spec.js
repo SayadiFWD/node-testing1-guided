@@ -43,6 +43,8 @@ describe('car class', () => { // not a test
   })
 
   it('makes cars with a "make" prop in them', () => {
-    const prius = new Car
+    const prius = new Car()
+    expect(prius.make).toBeDefined()
+    expect(prius).toHaveProperty('make')
   })
 })

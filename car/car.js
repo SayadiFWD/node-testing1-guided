@@ -8,8 +8,9 @@ class Car {
     this.odometer += miles
     return this.odometer
   }
-  async driveAsync(miles) {
-    
+  driveAsync(miles) {
+    this.odometer += miles
+    return Promise.resolve(this.odometer)
   }
 }
 

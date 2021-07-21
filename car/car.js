@@ -4,9 +4,9 @@ class Car {
     this.make = make
     this.model = model
   }
-
   drive (miles) {
     this.odometer += miles
+    return this.odometer
   }
 }
 
